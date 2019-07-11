@@ -1,0 +1,168 @@
+35:855  20:684  Found BIOS RSDP at FCE10
+35:855  0:000  Printing ACPI tables from RSDP FCE10 ...
+35:855  0:000   FCE10: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+35:855  0:000    (Xsdt: B359B0A8, Rsdt: B359B028)
+35:855  0:000    B359B0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+35:855  0:000    B359B028: 'RSDT', 'A M I', Rev: 1, Len: 120
+35:855  0:000    Tables in Xsdt: 21
+35:855  0:000    0. B35C6E48: 'FACP', 'A M I', Rev: 6, Len: 276
+35:855  0:000        (Dsdt: B359B210, Facs: C2384F00, XDsdt: B359B210, XFacs: 0)
+35:855  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:858  0:002        C2384F00: 'FACS', Ver: 2, Len: 64
+35:858  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:858  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:858  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:858  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:858  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:858  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:858  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:858  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:858  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:858  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:858  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:858  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:858  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:858  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:858  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:858  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:858  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:858  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:858  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:858  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:858  0:000    Tables in Rsdt: 21
+35:858  0:000    0. B359B188: 'FACP', 'A M I', Rev: 2, Len: 132
+35:858  0:000        (Dsdt: B359B210, Facs: C2384EC0)
+35:858  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:860  0:002        C2384EC0: 'FACS', Ver: 0, Len: 64
+35:860  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:860  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:860  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:860  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:860  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:860  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:860  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:860  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:860  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:860  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:860  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:860  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:860  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:860  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:860  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:860  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:860  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:860  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:860  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:860  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:860  0:000  Found UEFI Acpi 2.0 RSDP at B359B000
+35:860  0:000  Saving ACPI tables from RSDP B359B000 to EFI\CLOVER\ACPI\origin ...
+35:860  0:000   B359B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+35:860  0:000    (Xsdt: B359B0A8, Rsdt: B359B028)
+35:860  0:000    B359B0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+35:860  0:000    B359B028: 'RSDT', 'A M I', Rev: 1, Len: 120
+35:860  0:000    Tables in Xsdt: 21
+35:860  0:000    0. B35C6E48: 'FACP', 'A M I', Rev: 6, Len: 276
+35:860  0:000        (Dsdt: B359B210, Facs: C2384F00, XDsdt: B359B210, XFacs: 0)
+35:860  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:862  0:002        C2384F00: 'FACS', Ver: 2, Len: 64
+35:862  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:862  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:862  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:862  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:862  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:862  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:862  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:862  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:862  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:862  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:862  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:862  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:862  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:862  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:862  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:862  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:862  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:862  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:862  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:862  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:862  0:000    Tables in Rsdt: 21
+35:862  0:000    0. B359B188: 'FACP', 'A M I', Rev: 2, Len: 132
+35:862  0:000        (Dsdt: B359B210, Facs: C2384EC0)
+35:862  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:864  0:002        C2384EC0: 'FACS', Ver: 0, Len: 64
+35:864  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:864  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:864  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:864  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:864  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:864  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:864  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:864  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:864  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:864  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:864  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:864  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:864  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:864  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:864  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:864  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:864  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:864  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:864  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:864  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:864  0:000  Found UEFI Acpi 1.0 RSDP at B359B000
+35:864  0:000  Printing ACPI tables from RSDP B359B000 ...
+35:864  0:000   B359B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+35:864  0:000    (Xsdt: B359B0A8, Rsdt: B359B028)
+35:864  0:000    B359B0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+35:864  0:000    B359B028: 'RSDT', 'A M I', Rev: 1, Len: 120
+35:864  0:000    Tables in Xsdt: 21
+35:864  0:000    0. B35C6E48: 'FACP', 'A M I', Rev: 6, Len: 276
+35:864  0:000        (Dsdt: B359B210, Facs: C2384F00, XDsdt: B359B210, XFacs: 0)
+35:864  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:867  0:002        C2384F00: 'FACS', Ver: 2, Len: 64
+35:867  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:867  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:867  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:867  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:867  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:867  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:867  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:867  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:867  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:867  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:867  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:867  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:867  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:867  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:867  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:867  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:867  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:867  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:867  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:867  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+35:867  0:000    Tables in Rsdt: 21
+35:867  0:000    0. B359B188: 'FACP', 'A M I', Rev: 2, Len: 132
+35:867  0:000        (Dsdt: B359B210, Facs: C2384EC0)
+35:867  0:000        B359B210: 'DSDT', 'A M I', Rev: 2, Len: 179252
+35:869  0:002        C2384EC0: 'FACS', Ver: 0, Len: 64
+35:869  0:000    1. B35C6F60: 'APIC', 'A M I', Rev: 3, Len: 244
+35:869  0:000    2. B35C7058: 'FPDT', 'A M I', Rev: 1, Len: 68
+35:869  0:000    3. B35C70A0: 'FIDT', 'A M I', Rev: 1, Len: 156
+35:869  0:000    4. B35D1528: 'WSMT', 'A M I', Rev: 1, Len: 40
+35:869  0:000    5. B35C7198: 'MCFG', 'A M I', Rev: 1, Len: 60
+35:869  0:000    6. B35C71D8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+35:869  0:000    7. B35C7580: 'SSDT', 'SaSsdt', Rev: 2, Len: 12355
+35:869  0:000    8. B35CA5C8: 'HPET', 'KBL', Rev: 1, Len: 56
+35:869  0:000    9. B35CA600: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4514
+35:869  0:000    10. B35CB7A8: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2845
+35:869  0:000    11. B35CC2C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+35:869  0:000    12. B35CC310: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+35:869  0:000    13. B35CDAC0: 'LPIT', 'KBL', Rev: 1, Len: 148
+35:869  0:000    14. B35CDB58: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+35:869  0:000    15. B35CDCA0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+35:869  0:000    16. B35CDF40: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+35:869  0:000    17. B35D0F48: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+35:869  0:000    18. B35D1460: 'DBGP', '', Rev: 1, Len: 52
+35:869  0:000    19. B35D1498: 'DBG2', '', Rev: 0, Len: 84
+35:869  0:000    20. B35D14F0: 'BGRT', 'A M I', Rev: 1, Len: 56
